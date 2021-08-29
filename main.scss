@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import "mixins";
+@mixin squares {
+  display: inline-block;
+  // background-color: rgb(255, 0, 0);
+  width: 17rem;
+  height: 17rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: "Fredoka One";
+  font-size: 62.5%;
+  @include respond(tab-land) {
+    font-size: 50%;
+  }
+  @include respond(tab-port) {
+    font-size: 44.1%;
+    #game-container {
+      width: 70%;
+      height: 58vh;
+    }
+    #btn {
+      left: 80%;
+      top: 75%;
+    }
+  }
+  @include respond(phone) {
+    font-size: 35%;
+    #game-container {
+      width: 70%;
+      height: 45vh;
+    }
+    .title {
+      margin-top: 20rem;
+    }
+    #btn {
+      top: 73%;
+      left: 75%;
+    }
+  }
+  @include respond(small-phone) {
+    font-size: 27%;
+    .title {
+      margin-top: 35rem;
+    }
+    #game-container {
+      height: 40vh;
+    }
+  }
+}
+body {
+  background-color: rgb(20, 20, 20);
+}
+a {
+  color: purple;
+  font-size: 17rem;
+  text-decoration: none;
+  // color: rgb(255, 255, 255);
+}
+h1 {
+  color: rgb(230, 38, 38);
+  margin-top: 2rem;
+  font-size: 7rem;
+}
+.span1 {
+  color: purple;
+  font-size: 8rem;
+}
+.span2 {
+  color: green;
+  font-size: 8rem;
+}
+.game-container {
+  background-color: rgb(15, 15, 15);
+  // width: 90rem;
+  // height: 65rem;
+  width: 60%;
+  height: 65vh;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 3.5rem;
+}
+.square- {
+  max-width: 61rem;
+  margin: 0 auto;
+  &1 {
+    @include squares;
+    // border-bottom: 1px solid gray;
+  }
+  &2 {
+    @include squares();
+    // border-bottom: 1px solid gray;
+  }
+  &3 {
+    @include squares();
+    // border-bottom: 1px solid gray;
+  }
+  &4 {
+    @include squares();
+  }
+  &5 {
+    @include squares();
+  }
+  &6 {
+    @include squares();
+  }
+  &7 {
+    @include squares();
+  }
+  &8 {
+    @include squares();
+  }
+  &9 {
+    @include squares();
+  }
+}
+.won {
+  color: rgb(235, 235, 235);
+  font-size: 6rem;
+}
+.hidden {
+  display: none;
+}
+.won-green {
+  color: green;
+  font-size: 10rem;
+  text-transform: uppercase;
+}
+.won-purple {
+  color: purple;
+  font-size: 10rem;
+}
+.btn {
+  font-size: 5rem;
+  position: absolute;
+  top: 85%;
+  left: 70%;
+  color: rgb(230, 38, 38);
+  transition: font-size 0.3s;
+  padding-bottom: 1rem;
+}
+.btn:hover {
+  font-size: 5.5rem;
+  border-bottom: 2px solid rgb(230, 38, 38);
+}
