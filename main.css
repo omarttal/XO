@@ -84,24 +84,24 @@ body {
 
 a {
   color: purple;
-  font-size: 16rem;
+  font-size: 19rem;
   text-decoration: none;
 }
 
 h1 {
   color: #e62626;
   margin-top: 2rem;
-  font-size: 7rem;
+  font-size: 8rem;
 }
 
 .span1 {
   color: purple;
-  font-size: 8rem;
+  font-size: 9rem;
 }
 
 .span2 {
   color: green;
-  font-size: 8rem;
+  font-size: 9rem;
 }
 
 .game-container {
@@ -110,7 +110,7 @@ h1 {
   height: 65vh;
   margin: auto;
   cursor: pointer;
-  margin-top: 3.5rem;
+  margin-top: 4.5rem;
 }
 
 a:focus,
@@ -120,67 +120,67 @@ a:focus,
 }
 
 .square- {
-  max-width: 61rem;
+  max-width: 62rem;
   margin: 0 auto;
 }
 
 .square-1 {
   display: inline-block;
-  width: 17rem;
-  height: 17rem;
+  width: 19rem;
+  height: 19rem;
 }
 
 .square-2 {
   display: inline-block;
-  width: 17rem;
-  height: 17rem;
+  width: 19rem;
+  height: 19rem;
 }
 
 .square-3 {
   display: inline-block;
-  width: 17rem;
-  height: 17rem;
+  width: 19rem;
+  height: 19rem;
 }
 
 .square-4 {
   display: inline-block;
-  width: 17rem;
-  height: 17rem;
+  width: 19rem;
+  height: 19rem;
 }
 
 .square-5 {
   display: inline-block;
-  width: 17rem;
-  height: 17rem;
+  width: 19rem;
+  height: 19rem;
 }
 
 .square-6 {
   display: inline-block;
-  width: 17rem;
-  height: 17rem;
+  width: 19rem;
+  height: 19rem;
 }
 
 .square-7 {
   display: inline-block;
-  width: 17rem;
-  height: 17rem;
+  width: 19rem;
+  height: 19rem;
 }
 
 .square-8 {
   display: inline-block;
-  width: 17rem;
-  height: 17rem;
+  width: 19rem;
+  height: 19rem;
 }
 
 .square-9 {
   display: inline-block;
-  width: 17rem;
-  height: 17rem;
+  width: 19rem;
+  height: 19rem;
 }
 
 .won {
   color: #ebebeb;
-  font-size: 7rem;
+  font-size: 8rem;
 }
 
 .hidden {
@@ -199,18 +199,18 @@ a:focus,
 }
 
 .btn {
-  font-size: 5rem;
+  font-size: 6rem;
   position: absolute;
   top: 85%;
   left: 70%;
   color: #e62626;
   -webkit-transition: font-size 0.3s;
   transition: font-size 0.3s;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .btn:hover {
-  font-size: 5.5rem;
+  font-size: 6.5rem;
   border-bottom: 2px solid #e62626;
 }
 /*# sourceMappingURL=main.css.map */
