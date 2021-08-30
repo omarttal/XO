@@ -30,7 +30,7 @@
     }
   }
   @include respond(phone) {
-    font-size: 35%;
+    font-size: 30%;
     #game-container {
       width: 70%;
       height: 45vh;
